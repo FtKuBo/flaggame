@@ -4,10 +4,9 @@ Ce projet est un prototype interactif haute-fidélité développé en React, dan
 
 ## Description du projet
 
-Deux jeux sont inclus :
+Un jeux sont inclus :
 
 - **Flag Guesser** : Un jeu où l'utilisateur doit reconnaître le drapeau d'un pays parmi 4 options. L'objectif est d'enchaîner 20 bonnes réponses pour gagner. Ce jeu teste la mémoire visuelle et la reconnaissance rapide.
-- **MentalGame** : Un jeu de séquences où l'utilisateur doit mémoriser et reproduire une séquence d'éléments (nombres, couleurs ou formes) qui s'allonge à chaque niveau. Ce jeu teste la mémoire séquentielle et l'attention.
 
 Chaque jeu propose plusieurs niveaux de difficulté et des options de configuration (thème, mode sombre, etc.).
 
@@ -33,7 +32,6 @@ npm run dev
 
 ## Structure du code
 - `src/flaggame.jsx` : Jeu de reconnaissance de drapeaux
-- `src/mentalgame.jsx` : Jeu de séquences/mémoire
 - `src/App.jsx` : Point d'entrée principal (actuellement FlagGame par défaut)
 - `src/main.jsx` : Initialisation React
 
@@ -43,8 +41,3 @@ Ce projet répond aux exigences du Devoir 3 :
 - Deux storyboards/personnages (voir rapport séparé)
 - Application des principes de conception visuelle et de cognition
 - Hébergement possible sur Netlify/Vercel/GitHub Pages
-
-Pour plus de détails sur le processus de conception, les choix UX/UI, les storyboards, les personnages et l'utilisation de l'IA générative, consultez le rapport fourni dans le dépôt.
-
-## Auteur·e·s
-- [À compléter : noms, numéros d'étudiant, groupe]
